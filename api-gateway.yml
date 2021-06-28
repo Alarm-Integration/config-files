@@ -1,0 +1,9 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+    ip-address: 139.150.75.239
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://discovery-service:8761/eureka
