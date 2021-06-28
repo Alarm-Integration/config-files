@@ -1,7 +1,7 @@
 eureka:
   instance:
     prefer-ip-address: true
-    ip-address: 139.150.75.239
+    ip-address: '{cipher}AQBHha0Xtw5MrngQKk2pa9P3QdOkzOixttAvIkip59lkXZA/+/BbdHmBcQ3VYrudfQxe1eGPFRyRGiNSh8kvVJPVr2RlgqgQxbznUx9QC42lOqaBYtLfyFJy4nX1a09tpAN77ZDXNgQfmyqQC2t0AvMri6YuYNda9ugd3BDaKDNoGxCe7EZwNIMtVRGRrlH13ruZnOGmlt2u6YAJveE8Fr5mOWslt4R+kcECu+Ga1EqOWDQy4zeexu/mz8NSaRxJkSgfTqwI5DYiIdiVJSnJFfnd5fxeLgpC+wo23CqzG4I0gGobYN/SBzcaIUl6NeOo7VZ7qx1BEfMP6j3ZpiEBPEnlmnvSmaJQlfhol21NEemgdZIb6tgg7uoiLd9QxsCaZQE='
   client:
     register-with-eureka: true
     fetch-registry: true
