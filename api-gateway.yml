@@ -7,3 +7,16 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://discovery-service:8761/eureka
+
+spring:
+  rabbitmq:
+    host: '{cipher}AQB5wbiEjrD2Fz7veE2fKSZsq7brgrmHEyrHTjiwbjeokSMFDssMFk5QAa2biYw82Jb/AV/Gruu13zmKCIrB2Bmj87MwH1bsVr+KK6ea9n6uSBdwm/uX4rP/aY0FJHotNQh1cv7V+wamloqf1T2QeGFekcvneilNcT8kt/OA51hJ7IRIz3QN9//cG+PJw1kf6724sAU3h6RvgyKq+CJTb0bXMjRcm+SwkGFD5FA5LG8R/Hk0tX9IQnN1yR08aGJKJASryMdY2L3i4Nyf1UMDiioWXNAVnxick+FnmOeHAqgNRs5kGjwLueMiP2iW0bkuMTRmm5qLTWSLQFeVNwXKl/0HJBgNJH/cDddJYqJQHCtg1vHg9SCdrR7dFdGhuxWEOOM='
+    port: '{ciphAQA9dl70gtlrjWeDPuNqA6NvhjJ4bf+HNd8iMJGPnr7hNKFdYYqTkru0OjAEDAYNMkeFDYvyGpzcenZxrreqRYdTLZTVNqOCOsj2z6aToGwTyP925HpToJ8ykqPnzoM8mxkdH6KmH3nxMA2dp9lI2J7+nfSLGU/hURsbY+NJgUgeIFlASsS/CdhAZWmrGOpTS1Y+CfFoUhSemHrbKjqUznjapKnojxaAT+p3G9dY8toZOfQA5qKd81XWujfVOtd+u7aPgJIDUPKRa+V9fiSnMgMxYCECFDkG0zTmHLOYccdOEZro/3Ei6QtVuTbWXw/p4AerneeEfXOc+dYe7HqaWpKrOuvFujXy1etlm0VnlfFmLvApGYnAoTxcwslS8T4Mp9U='
+    username: '{cipher}AQAzPl76JXu8o3ien6iI9TAhSVwkzaIAoSlQIAYeA3/Vu411bHkgIl1+Ux/XUOU4vnVi3M91e0FJ5xp1wWEs8JHw+IQmOnMP2KauF/5Uf80S4T+271eBRyVNuLwwtxfd4ZJIyGT/wdWEROaT7WNuppJ4VbRhHP/oRZ4dJ6wbhzBecX7tjCe4uuGKb/GR10AIb2TjV1HDF2l1sLLtmAUS8DLbFS0tumTBAulKMpDRIPI4gFTGH+0nzWy+BplGMGS50AdIcaRabyopiXFlPdcLFz9+zxU1Z9Nx+C3g1xe7PaGhgmBw4wVXnTvrG9VAbU0ObdVi5Z6Tu/wwHFfoiRhzr9ik0sVGBVlRbDL9NxsnYn4CLFZkqq+P0O3zujUW+V6WYdI='
+    password: '{cipher}AQAkY0aeobMh2ijLK6Ym11ahRSU5ixYqBAOrHfBp7Et+Cyqjg8vI6vqL7W1R/bB1z4fyK1/pSxr1tkxcjACXhqkhKjK8Zhjg86fGgThsPdNfB4BDA0bBRfA0ioTLD8Wb3hOwaXx9PxGXxhvOjPew/tSKV3z5aI16stpUAz97VDld0Kxgwtt/s44LFkQhLyJEwCkc7p1vCePQfqk1HrbiK9vQKQuTDLnazme3QeJOFbm66LtgeUwy4BPu3oXR7OHd7sfSI0VjF53f38KJQK1UrmeIYmAD/1X/yHukasv0GA6pGRMmuvKrUfaKITu9FfLL7u0W6ZZ92jEW5EvVreHCk9+bJhkZeV1gnZ2S4KzEIGDm0j2ltXnQ2Z9VAJI9P2Sw3K4='
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health, beans, busrefresh
