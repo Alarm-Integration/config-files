@@ -24,4 +24,3 @@ management:
 logging:
   level:
     org.springframework.cloud.gateway: trace
-    reactor.netty: trace
