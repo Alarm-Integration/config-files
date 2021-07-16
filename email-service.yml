@@ -1,0 +1,6 @@
+aws:
+  ses:
+    region: ap-northeast-2
+    credentials:
+      access-key: '{cipher}AQB9zfployaVHo0UXURiqJVYHq01Rki+ZnVp7k+lo//sF6XZDx/wrqbng+eKiAArL5HgTiEuxVoWDI8cYhBsRa8b4vHjkBC9GaeNRgxgfC5gl5LqDOAaNpaW2i2KQd+01UUF3U97b9uPDySOU9ZnvO7JAJamX7dZnA/GYERGkFiHNIZcWX3RYt6EnutJepycA2jkpxceJu1jnwhGuFSiAkfUYtM1A4kIXRB1U7eSod8BloYVKvFKYdf03LXrSRXB2k+X5jK2EuUY9RndRXHeQ4PC9jF0iUlSrUyjeJRGlqC/+BnMObQB52ujQgG9zWoh28H8H+eKbjYNlrlqA25ka6BR/d5z7zunxfm/IVILPurWzHkzNMdNAvHyfEOFdKh2J8z+4cGyIk/8VNztDf4yw11Y'
+      secret-key: '{cipher}AQBuRd/jj+hr/wYYatR2aAkmYBbjamQEpmXnP8VAWpwfADhkWnI5KVcAvzUL8ikYEHY0ZrocmN+xQKeXdYcTTRp3beCbaoQe67vbe8z0fTXICj0XocHXAUe4wiL01UhtV+PC1ljn1msaJ/eljbDHgYG5k1X7x+52ToVCZ0SfF8IRuolfXaaLt5E0omU/Qep7YHyvcrj35wbi4FKiQ9LX+40mJN2yi8uKWI8P+dS2MEoiMd1cypL4PnIqdQ81vYcM7l+Dc10eWuXJ+EkhOPqcfwo1TEq9udbwZHJyGQPPkoimHKspAmFdptM3WDmy3r9+V80WvjWfMrxB3jJ/Lwp64WTf0/8Z06M/2LrIwJayODig2xJMsKw2hes9FVmisYYzuC3hFZDAIr0Jd4JR5rrM4jGXi8gqH+5SgGTH0JoPmoAytw=='
