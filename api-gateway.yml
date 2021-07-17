@@ -6,7 +6,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://10.7.27.18:8761/eureka, http://10.7.27.19:8761/eureka
+      defaultZone: '{cipher}AQAACbgefI36vDu5AfXm8yJNFbve1Y38gFU4okaPBobTn9AHEb2OUyDiwkh5/1r7TJVt0Vuh5c9AU+cO8AoLiduN+RNDw03Cp0R+oye2HEzOXezKEEOoRfm1+zdgB54WqV44qvYy1atj2GKPei9GziJoYslfX1uuBjHluUADiISWd5bDu9eIxGfdH1PLodptQ+H+YF3mqDSJMUhgghxbI82mqWlRS2dLcFup7KdOff4tQwXZh9I1S1/COe281cUNBVO0xWyv9dAeGYZF2yeYSkIsH/ee1FzvlQDhumGTb3hWyKxzBZwZgXAduIe1BZfE5Wd8BebPNDmMal0dGBpsoYpsNs3D2W1DUuEnoJ1utNK8hXyIjf8ppuAqFEoNk6gJD/tTyv1w+M9ByNvRlxa/mkQ2MSuN0Fm+j+ryaPtdVyRBVANB8vUOs2Jn5V211mFYJbI='
 
 spring:
   rabbitmq:
